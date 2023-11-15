@@ -1,0 +1,149 @@
+body {
+	background-image: url(2.jpg), linear-gradient(#BD7C1A, #BD7C1A);
+	background-blend-mode: overlay;
+	background-position: top center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	min-height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+header {
+	background: #FFA823;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	display: block;
+	z-index: 1;
+}
+
+#widther {
+	display: flex;
+	justify-content: center;
+}
+
+.header_menu {
+	display: inline-flex;
+	flex-direction: row;
+	list-style: none;
+	background: #915E14;
+	margin: 0;
+	padding: 10px auto 10px 0;
+	padding-left: 0;
+	width: 100%;
+	justify-content: center;
+}
+
+.header_menu_element {
+	margin: 10px 50px;
+	font-size: 26px;
+	font-family: "Montserrat";
+	align-items: center;
+}
+
+.link_color {
+	color: black;
+	font-weight: 900;
+}
+
+.link_color:hover {
+	color: #B60606;
+}
+
+.center {
+	position: absolute;
+	top: 126.2px;
+	left: 0;
+	right: 0;
+	text-align: center;
+	margin: 3% auto;
+	max-width: max-content;
+	transition: all 500ms ease-out;
+}
+
+.center:hover {
+	background-color: #6E3512;
+	border-radius: 70px;
+}
+
+.discription_elements {
+	max-width: max-content;
+	display: inline-block;
+}
+
+.discription_element {
+	font-size: 22px;
+	font-family: "Montserrat";
+	font-weight: 900;
+	color: black;
+	list-style: none;
+	padding: 0 20px;
+}
+
+#combodinner {
+	color: #600A0A;
+}
+
+#combodinner:hover {
+	color: #00F5F5;
+}
+
+.akkordeon {
+	position: absolute;
+	width: 100%;
+	top: 750px;
+	left: 0;
+	right: 0;
+	background-color: #1D1818;
+	color: #EDE6E1;
+	font-size: 26px;
+	font-family: "Montserrat";
+	font-weight: 900;
+}
+
+.faq {
+	width: 100%;
+}
+
+.faq-item {
+	border: 1px solid #A11111;
+}
+
+.faq-title {
+	display: block;
+	cursor: pointer;
+	text-align: center;
+	padding: 20px 0;
+	transition: background .2s ease-out;
+}
+
+.faq-title:hover {
+	background-color: #A11111;
+	color: black;
+}
+
+.faq-input {
+	width: 0;
+	height: 0;
+	-webkit-appearance: none;
+	appearance: none;
+	position: absolute;
+}
+
+.faq-input:checked + .faq-text {
+	display: block;
+}
+
+.faq-text {
+	display: none;
+	font-size: 22px;
+	padding: 20px 0 20px 0;
+	text-align: center;
+	background-color: #DC0000;
+	color: black;
+}
